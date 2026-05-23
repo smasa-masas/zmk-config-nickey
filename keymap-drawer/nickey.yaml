@@ -1,91 +1,134 @@
 layout: {zmk_keyboard: nickey}
 layers:
-  default: [TAB, Q, W, E, R, T, Y, U, I, O, P, '''', LCTRL, A, S, D, F, G, H, J, K, L, ;, '-', LSHFT, Z, X, C, V, B, LEFT WIN, DELETE, N, M, ',', ., /, '=', '2',
-    '1', SPACE, BSPC, RET, RALT]
+  default:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - TAB
+  - ''''
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - LEFT CONTROL
+  - ;
+  - H
+  - J
+  - K
+  - L
+  - '-'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - LEFT SHIFT
+  - LEFT WIN
+  - DELETE
+  - /
+  - N
+  - M
+  - ','
+  - .
+  - {t: Sft+INT RO, h: '='}
+  - {t: LANGUAGE 2, h: '2'}
+  - SPACE
+  - {t: LANGUAGE 1, h: '1'}
+  - BSPC
+  - {t: ENTER, h: '1'}
+  - RALT
   '1':
-  - ESCAPE
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - '`'
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - LEFT
-  - DOWN
-  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+PAGE UP
+  - UP ARROW
+  - Ctl+PAGE DOWN
+  - {t: ▽, type: trans}
+  - Gui+Sft+S
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
   - RIGHT
   - {t: ▽, type: trans}
-  - '~'
+  - BRI UP
   - {t: ▽, type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '3'
   - {t: ▽, type: trans}
-  - '['
-  - (
-  - )
-  - ']'
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BRIGHTNESS DEC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
+  - F4
+  - Sft+2
+  - Sft+6
+  - Sft+8
+  - Sft+9
+  - {t: ▽, type: trans}
+  - Sft+-
+  - KP PLUS
+  - '7'
+  - '8'
+  - '9'
+  - KP MINUS
+  - Sft+4
+  - Sft+5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '?'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '%'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '@'
-  - '#'
-  - $
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '!'
+  - Sft+1
+  - KP MULTIPLY
+  - '4'
+  - '5'
+  - '6'
+  - KP SLASH
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '*'
-  - ^
+  - ;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - .
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,8 +175,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESCAPE
+- p: [12, 13]
+  k: TAB
+- p: [10, 11]
+  k: DELETE
