@@ -42,10 +42,11 @@ layers:
   - {t: LANGUAGE 2, h: '2'}
   - SPACE
   - {t: LANGUAGE 1, h: '1'}
-  - BSPC
+  - LEFT ALT
+  - {t: BACKSPACE, h: '1'}
   - {t: ENTER, h: '1'}
-  - RALT
   '1':
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -56,7 +57,6 @@ layers:
   - Ctl+PAGE UP
   - UP ARROW
   - Ctl+PAGE DOWN
-  - {t: ▽, type: trans}
   - Gui+Sft+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -66,15 +66,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
+  - LEFT ARROW
   - DOWN ARROW
-  - RIGHT
-  - {t: ▽, type: trans}
+  - RIGHT ARROW
   - BRI UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ;
-  - {t: ▽, type: trans}
+  - LSHFT
   - {t: ▽, type: trans}
   - '3'
   - {t: ▽, type: trans}
@@ -84,8 +84,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BRIGHTNESS DEC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
+  - LEFT ALT
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
