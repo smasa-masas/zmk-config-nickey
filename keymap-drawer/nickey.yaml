@@ -40,7 +40,7 @@ layers:
   - .
   - {t: Sft+INT RO, h: '='}
   - {t: LANGUAGE 2, h: LEFT ALT}
-  - {t: SPACE, h: LANGUAGE 2}
+  - {t: SPACE, h: '2'}
   - {t: LANGUAGE 1, h: '1'}
   - LEFT ALT
   - {t: BACKSPACE, h: '1'}
@@ -130,7 +130,7 @@ layers:
   - '3'
   - .
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
