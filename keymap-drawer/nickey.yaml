@@ -18,19 +18,19 @@ layers:
   - D
   - F
   - G
-  - LEFT CONTROL
+  - ;
   - ;
   - H
   - J
   - K
   - L
   - '-'
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
-  - LEFT SHIFT
+  - LEFT CONTROL
   - LEFT WIN
   - DELETE
   - /
@@ -39,8 +39,8 @@ layers:
   - ','
   - .
   - {t: Sft+INT RO, h: '='}
-  - {t: LANGUAGE 2, h: '2'}
-  - SPACE
+  - {t: LANGUAGE 2, h: LEFT ALT}
+  - {t: SPACE, h: LANGUAGE 2}
   - {t: LANGUAGE 1, h: '1'}
   - LEFT ALT
   - {t: BACKSPACE, h: '1'}
@@ -129,7 +129,7 @@ layers:
   - '2'
   - '3'
   - .
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
